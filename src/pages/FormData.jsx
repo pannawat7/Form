@@ -18,8 +18,8 @@ const FormData = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="container max-w-lg bg-white p-8 rounded-lg shadow-md">
+    <div className="min-h-screen flex items-center justify-center bg-red-100">
+      <div className="container max-w-lg bg-white p-8 rounded-lg shadow-xl">
         <h1 className="text-2xl font-bold text-center mb-6">แบบฟอร์มภาษีเงินได้</h1>
         <p className="text-gray-500 text-center mb-6">
           ------------------------------------------------------------
@@ -77,7 +77,7 @@ const FormData = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-blue-500 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            className="w-full bg-blue-500 text-white font-bold py-2 px-4 rounded-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-blue-400"
           >
             ตกลง
           </button>

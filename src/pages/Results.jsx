@@ -39,8 +39,8 @@ const Results = () => {
   let taxPay = taxRate * income;
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="container max-w-lg bg-white p-8 rounded-lg shadow-md">
+    <div className="min-h-screen flex items-center justify-center bg-red-100">
+      <div className="container max-w-lg bg-white p-8 rounded-lg shadow-xl">
         <h1 className="text-2xl font-bold text-center mb-6">ผลการคำนวณ</h1>
         <p className="text-gray-500 text-center mb-6">
           ------------------------------------------------------------
